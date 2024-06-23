@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+height: 100vh;
+width: 100vw;
+background-color: white;
+/* background-color: #efefef; */
+/* background-image: url(skillbg.jpg); */
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+
+}
+.items{
+    height: 700px;
+    width: 60%;
+    border-radius: 15px;
+    /* background-color: azure; */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    /* border: 2px solidwhitesmoke; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+
+}
+.heading{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    font-style: italic;
+    font-family: cursive;
+}
+.s1{
+    height: 130px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.skill1{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+
+}
+.head1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img11:hover{
+    transform: scale(1.1);
+}
+#img11{
+    height: 70px;
+    width: 70px;
+}
+.skill2{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img12:hover{
+    transform: scale(1.1);
+}
+#img12{
+    height: 70px;
+    width: 70px;
+}
+.skill3{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+   
+    /* border: 2px solid black; */
+
+}
+.head3{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img13:hover{
+    transform: scale(1.1);
+}
+#img13{
+    height: 70px;
+    width: 70px;
+}
+
+.skill4{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head4{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img14:hover{
+    transform: scale(1.1);
+}
+#img14{
+    height: 70px;
+    width: 70px;
+}
+
+.s2{
+    height: 130px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.skill5{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head5{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img21:hover{
+    transform: scale(1.1);
+}
+#img21{
+    height: 70px;
+    width: 70px;
+}
+.skill6{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head6{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img22:hover{
+    transform: scale(1.1);
+}
+#img22{
+    height: 70px;
+    width: 70px;
+}
+.skill7{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head7{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img23:hover{
+    transform: scale(1.1);
+}
+#img23{
+    height: 70px;
+    width: 70px;
+}
+.skill8{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head8{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img8{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img24:hover{
+    transform: scale(1.1);
+}
+#img24{
+    height: 70px;
+    width: 70px;
+}
+
+.s3{
+    height: 130px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+.skill9{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head9{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img31:hover{
+    transform: scale(1.1);
+}
+#img31{
+    height: 70px;
+    width: 70px;
+}
+.skill10{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head10{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img32:hover{
+    transform: scale(1.1);
+}
+.img10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img32{
+    height: 70px;
+    width: 70px;
+}
+.skill11{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head11{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img11{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img33:hover{
+    transform: scale(1.1);
+}
+#img33{
+    height: 70px;
+    width: 70px;
+}
+.skill8{
+    height: 110px;
+    width: 20%;
+    background-color: white;
+    /* border: 2px solid black; */
+
+}
+.head12{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img34:hover{
+    transform: scale(1.1);
+}
+#img34{
+    height: 70px;
+    width: 70px;
+}
